@@ -11,8 +11,8 @@ body {
   flex-direction: column;
   gap: 20px;
   position: relative;
-  width: 80%;
-  justify-content: space-between;
+  width: 100%;
+  align-items: center;
 }
 
 h1 {
@@ -37,7 +37,7 @@ h1 {
 .input-text {
   font-family: "Montserrat", sans-serif;
   font-size: 16px;
-  max-width: 480px;
+  width: 480px;
   height: 64px;
   padding: 20px;
   border: none;
@@ -54,7 +54,7 @@ h1 {
 textarea {
   font-family: "Montserrat", sans-serif;
   font-size: 16px;
-  max-width: 480px;
+  width: 480px;
   height: 120px;
   padding: 20px;
   border: none;
@@ -92,13 +92,12 @@ label {
 button {
   font-family: "EB Garamond", serif;
   font-size: 21px;
-  max-width: 280px;
+  width: 280px;
   height: 80px;
   background-color: #467745;
   color: #f7e4d4;
   border-radius: 5px;
   border: none;
-
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 
